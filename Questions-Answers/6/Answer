@@ -1,1 +1,9 @@
-f
+6. A. The protein sequence of the R2R3-MYB TF from Jatropha curcas has the accession number AFV73403 and is 313 amino acids (aa).
+
+URL: http://www.ncbi.nlm.nih.gov/protein/AFV73403.1
+
+B. A BLASTP is most appropriate because it will compare an amino acid query against a protein sequence database.
+
+C. When I BLASTP to the nr (non-redundant protein sequences) database on NCBI, the search returns 100 hits.
+
+D. Using the taxonomy report, I found protein homologs for the R2R3-MYB TF in 44 species.
