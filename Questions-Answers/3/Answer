@@ -1,1 +1,3 @@
-c
+3. The E-value provides information about the likelihood that a given sequence match is a result of random chance. Since the
+database returns a very low E-value (3.4e-178), it is very unlikely that the database match is the result of random chance and
+is therefore more significant. In sum, there is an extremely high confidence level that the database result is homologous.
