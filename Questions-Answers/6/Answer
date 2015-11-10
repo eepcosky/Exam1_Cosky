@@ -8,7 +8,8 @@ C. When I BLASTP to the nr (non-redundant protein sequences) database on NCBI, t
 
 D. Using the taxonomy report, I found protein homologs for the R2R3-MYB TF in 44 species.
 
-E. i. Populus trichocarpa: Accession #: XP_002302428.2, E-Value: 6e-158, Length: 321 aa.
+E. The top six search results were for:
+i. Populus trichocarpa: Accession #: XP_002302428.2, E-Value: 6e-158, Length: 321 aa.
 ii. Populus euphratica: Accession #: XP_011017151.1, E-Value: 2e-153, Length: 305 aa.
 iii. Vitis vinifera: Accession #: XP_002285015.1, E-Value: 6e-150, Length: 313 aa.
 iv. Prunus persica: Accession #: XP_007227715.1, E-Value: 1e-148, Length: 312 aa.
