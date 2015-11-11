@@ -15,11 +15,13 @@ tools, including: (1) LEP-MAP (Lepidoptera-MAP) software for constructing accura
 (4) PANNZER (Protein ANNotational with Z-scoRE) for functional annotation, and (5) EPT (Expressed Peptide Tags) and SANS (Suffix
 Array Neighborhood Search) for orthology prediction.
 
-D. Yes, if we use “glanville fritillary butterfly” as our query on the NCBI website, then our search returns relevant literature and genomes results.
+D. Yes, if we use “glanville fritillary butterfly” as our query on the NCBI website, then our search returns relevant literature
+and genomes results.
 
 URL: http://www.ncbi.nlm.nih.gov/gquery/?term=glanville+fritillary+butterfly
 
-If we take a look at Genomes —> Assembly, we will find the genome assembly information that was published by the scientists at the University of Helsinki.
+If we take a look at Genomes —> Assembly, we will find the genome assembly information that was published by the scientists at
+the University of Helsinki.
 
 URL: http://www.ncbi.nlm.nih.gov/assembly/GCA_000716385.1/
 
