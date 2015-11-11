@@ -1,1 +1,37 @@
-i
+8. A. Yes, there are groups that have developed genomic tools for the Glanville fritillary butterfly, including researchers in a
+genome project for this organism at the Metapopulation Research Centre at the University of Helsinki in Finland.
+
+URL: http://www.helsinki.fi/science/metapop/research/mcgenome.html
+
+B. The researchers suggest that a genomic tool, LiSs (Linkage Map Superscaffolder), for superscaffolding will be published in the
+future. The researchers report super scaffolds, which contain linkage map information, cover 72% of the glanville fritillary
+butterfly’s genome. So therefore, the genomic tool, LiSs, is still being refined to map the remainder of the super scaffolds to
+the remaining 28% of the organism’s genome.
+
+C. The researchers of the Glanville fritillary butterfly genome project at the University of Helsinki in Finland sequenced its
+genome and established a high-density linkage map for the organism. In order to do so, the researchers developed novel genomic
+tools, including: (1) LEP-MAP (Lepidoptera-MAP) software for constructing accurate linkage maps using high-density SNP data,
+(2) MIP (Mixed Integer Programs) Scaffolder for genome scaffolding, (3) Coral and Hybrid SHREC for read error correction,
+(4) PANNZER (Protein ANNotational with Z-scoRE) for functional annotation, and (5) EPT (Expressed Peptide Tags) and SANS (Suffix
+Array Neighborhood Search) for orthology prediction.
+
+D. Yes, if we use “glanville fritillary butterfly” as our query on the NCBI website, then our search returns relevant literature and genomes results.
+
+URL: http://www.ncbi.nlm.nih.gov/gquery/?term=glanville+fritillary+butterfly
+
+If we take a look at Genomes —> Assembly, we will find the genome assembly information that was published by the scientists at the University of Helsinki.
+
+URL: http://www.ncbi.nlm.nih.gov/assembly/GCA_000716385.1/
+
+E. We have a glanville fritillary butterfly reference genome, an assembly of sequenced DNA from a number of individual
+butterflies, so therefore we would be able to discover SNPs without implementing microarrays. Foremost, one would sequence an
+individual butterfly’s genome by next-generation sequencing. Next, one would search for SNPs using SNP calling software programs,
+such as bcftools/samtools or GATK (Genome Analysis Toolkit). Then, one would verify the sequence of the putative SNPs through PCR
+using primers to amplify a region in close proximity to the true location of the variants. If we did not have a reference genome,
+we would have to employ another genomic method to detect and discover SNPs. Perhaps, sequencing of restriction-site-associated
+DNA tags (RAD-Seq) we could compare multiple individuals tagged with multiple adapters and infer variant positions. (van Dijk
+et al., 2014). In short, we could sample a subset of an organism's genome, those regions containing restriction sites, by using
+restriction endonucleases and comparing resulting regions across individuals of the same species.
+
+Reference:
+1. van Dijk et al. “Ten years of next-generation sequencing technology.” Trends in Genetics 30.9 (2014): 418-426. Print.
