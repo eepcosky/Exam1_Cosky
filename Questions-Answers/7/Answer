@@ -1,1 +1,21 @@
-h
+7. The nucleotide sequence of the same gene from Jatropha curcas has an accession number of JX569771 and is 1,280 nucleotides (nt).
+
+URL: http://www.ncbi.nlm.nih.gov/nuccore/JX569771
+
+Reference 1: Li, Hui-Liang, Dong Guo, and Shi-Qing Peng. “Molecular Characterization of the Jatropha Curcas JcR1MYB1 Gene
+Encoding a Putative R1-MYB Transcription Factor.” Genetics and Molecular Biology 37.3 (2014): 549–555. Print.
+
+A. A BLASTN is most appropriate because it will compare a nucleotide query sequence against a nucleotide sequence database.
+
+B. When I do the blast to the nr database on NCBI, the search returns 32 hits.
+Please note, I optimized for highly similar sequences by implementing the BLAST algorithm, megablast.
+
+C.  Using the taxonomy report, I found nucleotide sequence homologs for the R2R3-MYB gene in 15 species.
+
+D. The top six search results were:
+i. Populus euphratica: Accession #: XM_011018849.1, E-Value: 1e-127, Length: 1,312 nt.
+ii. Ricinus communis: Accession #: XM_002510109.1, E-Value: 2e-96, Length: 2,305 nt.
+iii. Morus notabilis: Accession #: XM_010103368.1, E-Value: 2e-95, Length: 912 nt.
+iv. Prunus mume: Accession #: XM_008222055.1, E-Value: 2e-86, Length: 1,382 nt.
+v. Gossypium raimondii: Accession #: XM_012591173.1, E-Value: 5e-67, Length: 1,201 nt.
+vi. Glycine max: Accession #: NM_001251158.1, E-Value: 4e-58, Length: 1,536 nt.
