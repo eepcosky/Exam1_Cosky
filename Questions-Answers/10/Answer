@@ -1,1 +1,8 @@
-k
+10. A. Unix Command: awk ‘/^>/{print “>” +ii; next}{print}’ < Homo_sapiens.GRCh38.cds.all.fa > 10A_Headers_Homo_sapiens.GRCh38
+.cds.all.fa
+
+10. B. Unix Command: grep -v “^#” Homo_sapiens.GRCh38.82.abinitio.gtf | cut -f1,3,4,5 > 10B_Sorted_Homo_sapiens.GRCh38.82.abinitio
+.bed
+
+10.C. Unix Command 1: grep “exon” Homo_sapiens.GRCh38.82.abinitio.gtf | cut -f1,2,3,4,5 > 10C_Exon.bed
+Unix Command 2: grep “transcript” Homo_sapiens.GRCh38.82.abinitio.gtf | cut -f1,2,3,4,5 > 10C_Transcript.bed
