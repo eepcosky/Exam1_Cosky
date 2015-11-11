@@ -1,4 +1,10 @@
-12. #PBS -N Cosky_12
+12. #!/bin/bash
+set -e
+set -u
+set -o pipefail
+#Identifies the file as a bash script.
+
+#PBS -N Cosky_12
 #PBS -V 
 #PBS -A eeb416f15_ﬂux
 #PBS -l qos=ﬂux 
@@ -7,11 +13,6 @@
 #PBS -M eepcosky@umich.edu
 #PBS -m abe
 #PBS -j oe
-
-#!/bin/bash
-set -e
-set -u
-set -o pipefail
 
 #Download file.
 https://www.dropbox.com/s/1gxnyybqlazgvhm/BioinformaticsNov2.zip?dl=0
