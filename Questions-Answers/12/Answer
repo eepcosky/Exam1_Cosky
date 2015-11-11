@@ -47,8 +47,10 @@ bwa aln -t4 IZNU-SOAPdenovo-Trans-assembly.fa IZNU-read_1.fq > IZNU_R1.sai 2> IZ
 bwa aln -t4 IZNU-SOAPdenovo-Trans-assembly.fa IZNU-read_2.fq > IZNU_R2.sai 2> IZNU_R2_bwa_aln.stderr
 
 #Create a sam alignment file.
-bwa sampe IZNU-SOAPdenovo-Trans-assembly.fa IZNU_R1.sai IZNU_R2.sai IZNU-read_1.fq IZNU-read_2.fq > IZNU.sam 2> IZNU_sampe.stderr.sam
+bwa sampe IZNU-SOAPdenovo-Trans-assembly.fa IZNU_R1.sai IZNU_R2.sai IZNU-read_1.fq IZNU-read_2.fq > IZNU.sam 2> IZNU_sampe.stderr
+.sam
 
-#In general, it is best to store files in BAM format, as it is compatible with all samtools subcommands, faster to process, and space efficient. So therefore, I will convert the SAM file to a BAM file.
+##Optional: In general, it is best to store files in BAM format, as it is compatible with all samtools subcommands, faster to process, and
+space efficient. So therefore, I will convert the SAM file to a BAM file.
 
 samtools view -b IZNU_sampe.stderr.sam > IZNU_sampe.stderr.bam
