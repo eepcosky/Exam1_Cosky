@@ -1,1 +1,24 @@
-n
+13. #For files < 100 MB:
+
+##Open terminal:
+
+Unix Commands:
+
+cd Desktop
+git clone https://github.com/eepcosky/Exam1_Cosky.git
+cd Exam1_Cosky
+cd <Name of folder for the question that you are adding files to.>
+
+##Drop files into the respective folder.
+
+##In terminal:
+
+git add <Name of file/folder.>
+git commit –m “<Comment.>”
+git push origin master
+
+#For files > 100 MB, such as the .fa file in Question #10:
+
+##Compress the file by right clicking and selecting compress file.
+
+##Add, commit, and push to your GitHub account the same way as you would for files < 100 MB.
