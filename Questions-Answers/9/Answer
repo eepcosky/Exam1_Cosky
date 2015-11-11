@@ -1,1 +1,19 @@
-j
+9. A. There are two commands that work for this problem:
+
+Unix Command 1: grep -c “>” Homo_sapiens.GRCh38.cds.all.fa
+Unix Command 2: grep “>” Homo_sapiens.GRCh38.cds.all.fa | wc -l
+
+Answer: 101,933.
+
+B. Unix Command: wc -l Homo_sapiens.GRCh38.cds.all.fa
+
+Answer: 2,066,758.
+
+C. Yes, the adapter sequence ‘AGATCGG’ is present in the Homo_sapiens.GRCh38.cds.all.fa file.
+
+There are two commands that work for this problem:
+
+Unix Command 1: grep -c “AGATCGG” Homo_sapiens.GRCh38.cds.all.fa
+Unix Command 2: grep “AGATCGG” Homo_sapiens.GRCh38.cds.all.fa | wc -l
+
+Answer: 2,950.
