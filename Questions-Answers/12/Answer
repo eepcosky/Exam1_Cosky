@@ -3,7 +3,7 @@
 #PBS -A eeb416f15_ﬂux
 #PBS -l qos=ﬂux 
 #PBS -q ﬂux 
-#PBS -l nodes=1:ppn=12,mem=47gb,walltime=02:00:00
+#PBS -l nodes=4:ppn=12,mem=4gb,walltime=06:00:00
 #PBS -M eepcosky@umich.edu
 #PBS -m abe
 #PBS -j oe
@@ -33,7 +33,7 @@ module load python/2.7.3
 module load med samtools
 python setup.py install --user
 
-#Begin by submitting a request for an interactive job to flux.
+#Submit a request for an interactive job to flux.
 qsub -I -V -l procs=2 -l walltime=3:00:00 -A eeb416f15_flux -l qos=flux -qflux
 
 #Move backwards in the directory network.
