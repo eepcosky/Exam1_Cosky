@@ -6,17 +6,29 @@ set -o pipefail
 
 #Start PBS Script.
 
-#PBS -N Cosky_12
-#PBS -V 
-#PBS -A eeb416f15_ﬂux
-#PBS -l qos=ﬂux 
-#PBS -q ﬂux 
-#PBS -l nodes=2:ppn=12,mem=12gb,walltime=06:00:00
+#PBS -N RNA_Seq
 #PBS -M eepcosky@umich.edu
 #PBS -m abe
+
+#PBS -A eeb416f15
+#PBS -l qos=flux
+#PBS -q flux
+
+#PBS -l nodes=2:ppn=12,mem=12gb,walltime=06:00:00
 #PBS -j oe
+#PBS -V
 
 #End PBS Script.
+
+if [ -s "$PBS_NODEFILE" ] ; then
+echo "Running"
+cat $PBS_NODEFILE
+fi
+
+if [ -d "$PBS_O_WORKDIR" ] ; then
+cd $PBS_O_WORKDIR
+echo "Running From $PBS_O_WORKDIR"
+fi
 
 #Download file.
 https://www.dropbox.com/s/1gxnyybqlazgvhm/BioinformaticsNov2.zip?dl=0
